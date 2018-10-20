@@ -1,4 +1,19 @@
 <html>
-  <body>
+  <body onload="document.forms['csp_violation'].submit()">
+    <form id="csp_violation" name="csp_violation" action="https://formspree.io/root@localhost.localdomain" method="post">
+      <button href="" type="submit">POST</button>
+    </form>
+    <!-- add modal -->
+    <!-- add orientation lock? -->
+    <!-- add pointer lock? -->
+    <!-- add popups? -->
+    <!-- add presentation session? -->
+    <!-- add top navigation? -->
+    <p id="violate-from-script">blah</p>
+    <p id="violate-inline">asdf</p>
+    <script src="example.js"></script>
+    <script>
+      document.getElementById("violate-inline").innerHTML = "Hello JavaScript!";
+    </script>
   </body>
 </html>
