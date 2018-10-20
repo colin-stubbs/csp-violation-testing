@@ -1,1 +1,0 @@
-Header set Content-Security-Policy "default-src 'none'; child-src 'none';"
