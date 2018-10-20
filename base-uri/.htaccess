@@ -1,1 +1,1 @@
-Header set Content-Security-Policy "default-src 'self'; base-uri https://example.tld;"
+Header set Content-Security-Policy "default-src 'none'; img-src *; base-uri https://example.tld;"
