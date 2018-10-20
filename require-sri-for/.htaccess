@@ -1,1 +1,1 @@
-Header set Content-Security-Policy "default-src 'none' ; script-src 'self' ; style-src 'self' ; require-sri-for script style;"
+Header set Content-Security-Policy "default-src 'none' ; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; require-sri-for script style;"
