@@ -1,1 +1,1 @@
-Header set Content-Security-Policy "default-src 'self'; font-src 'none';"
+Header set Content-Security-Policy "default-src 'self'; style-src *; font-src 'none';"
